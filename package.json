@@ -1,0 +1,27 @@
+{
+  "name": "upload-image-to-imgur",
+  "version": "1.0.0",
+  "description": "a github action to upload image to imgur then return image urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengpengzx/upload-image-to-imgur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengpengzx/upload-image-to-imgur/issues"
+  },
+  "homepage": "https://github.com/pengpengzx/upload-image-to-imgur#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  }
+}
