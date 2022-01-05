@@ -1,0 +1,13 @@
+name: 'Comment With Image'
+description: 'Comment with image'
+inputs:
+  images:  # id of input
+    description: 'Image to comment'
+    required: true
+    default: 'World'
+outputs:
+  body: # id of output
+    description: 'The markdown body of the message'
+runs:
+  using: 'node14'
+  main: 'dist/index.js'
