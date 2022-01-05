@@ -13,6 +13,7 @@ try {
         str_1 += '\n\n';
         str_1 = "\n    <details>\n    <p>\n    " + str_1 + "\n    </p>\n    </details>\n    ";
         var _a = github.context.repo, owner = _a.owner, repo = _a.repo;
+        console.log(owner, repo);
         github.rest.issues.createComment({
             owner: owner,
             repo: repo,

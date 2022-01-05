@@ -37,6 +37,8 @@ try {
     `;
 
     const { owner, repo } = github.context.repo;
+    console.log(owner, repo)
+    
     github.rest.issues.createComment({
       owner: owner,
       repo: repo,
