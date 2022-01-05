@@ -40,7 +40,7 @@ try {
     github.rest.issues.createComment({
       owner: owner,
       repo: repo,
-      issue_number: 1, // TODO: get issue number from context
+      issue_number: 1,
       body: str,
     });
   }
